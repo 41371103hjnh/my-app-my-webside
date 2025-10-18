@@ -23,7 +23,7 @@
 - 在程式中以 new GoogleGenAI({ apiKey }) 建立客戶端，並以 models.generateContent({ model, contents }) 取得回應。  
 - 前端直接使用 API Key 會有外流風險，正式上線建議加一層後端代理，於伺服器端保護金鑰。
 
-## 4.安裝與執行方式  
+## ⚙️4.安裝與執行方式  
 - npx create-react-app@latest my-app建立新專案
 - 利用AI取得API檔案的AItest.js
 - 檔案放入對應資料夾
